@@ -1,0 +1,20 @@
+
+.screen{
+    display: grid;
+    grid-template-columns: 1fr 1fr;	
+    gap: 1rem;
+    margin:2rem;
+}
+
+
+.btn-info{
+    
+    grid-column: 1/2;
+     height:40vw;
+}
+
+.btn-danger{
+    grid-column: 2/3;
+    height:40vw;
+    
+}
